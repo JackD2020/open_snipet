@@ -3,7 +3,6 @@
 	SHOW data_directory;
 	
 -- загрузить оттуда файлы
-
 --загрузить файл целиком в клонку с типом xml
                 insert into public.target_conf (xml_row)
                 SELECT XMLPARSE(DOCUMENT convert_from(
