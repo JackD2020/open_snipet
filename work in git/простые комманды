@@ -26,7 +26,7 @@ git config --global http.sslbackend schannel
 git checkout -b Gutorov
 Switched to a new branch 'Gutorov'
 
-после добавления или изменения
+после добавления или изменения файлов
 git commit
 
 закидываем на сервер
